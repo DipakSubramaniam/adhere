@@ -7,6 +7,6 @@
     <!-- <item>
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/launch_image" />
+            android:src="@drawable/undraw_medicine_b1ol.png" />
     </item> -->
 </layer-list>
