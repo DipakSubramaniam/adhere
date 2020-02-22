@@ -5,6 +5,11 @@ import 'main.dart';
 import 'package:charts_flutter/flutter.dart';
 import 'dart:collection';
 import 'dart:developer';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/foundation.dart';
+
 
 void main() {
  runApp(MyApp());
