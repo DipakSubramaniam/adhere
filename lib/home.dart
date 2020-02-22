@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'dart:async';
 import 'main.dart';
+import 'package:charts_flutter/flutter.dart';
 
 void main() {
  runApp(MyApp());
