@@ -4,9 +4,9 @@
     <item android:drawable="@android:color/white" />
 
     <!-- You can insert your own image assets here -->
-    <!-- <item>
+    <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/undraw_medicine_b1ol.png" />
-    </item> -->
+            android:src="@drawable/medicine" />
+    </item>
 </layer-list>
