@@ -62,6 +62,15 @@ class PieOutsideLabelChart extends StatelessWidget {
     ];
   }
 }
+
+//Data Struct
+class PrescriptionChart {
+  final int year;
+  final int sales;
+
+  LinearSales(this.year, this.sales);
+}
+
 */
 
 class MyApp extends StatelessWidget {
@@ -152,11 +161,23 @@ class Home extends StatelessWidget {
           )
         ]
       ),
+      //Left / Center / Right Navigation
       bottomNavigationBar: new BottomNavigationBar(
-        items: null
-        //Left / Right Navigation
-      )
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            title: Text('Metrics'),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.business),
+            title: Text('Home'),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.school),
+            title: Text('Prescriptions'),
+          ),
+        ],
+      ),
     );
   }
 }
-
