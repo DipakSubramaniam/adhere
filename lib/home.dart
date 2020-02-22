@@ -15,7 +15,54 @@ void main() {
  runApp(MyApp());
 }
 
+//private variables
+
 List<String> prescriptions = new List();
+
+/* PIE CHART
+class PieOutsideLabelChart extends StatelessWidget {
+  final List<Series> seriesList;
+  final bool animate;
+
+  PieOutsideLabelChart(this.seriesList, {this.animate});
+
+  factory PieOutsideLabelChart.withSampleData() {
+    return new PieOutsideLabelChart(
+      _inputData(),
+      animate: false,
+    );
+  }
+  
+  @override
+  Widget build (BuildContext ctxt) {
+    return new PieChart(seriesList,
+      animate: animate,
+      defaultRenderer: new ArcRendererConfig(
+        ArcRendererDecorators: [
+          new ArcLabelDecorator(
+            labelPosition: ArcLabelPosition.outside
+          )
+        ]
+      )
+    );
+  }
+
+  static List<Series<something, something>> _inputData() {
+    final data = [
+      //obtain data
+    ];
+    return [
+      new Series<something, something>(
+        id:
+        domainFn: ,
+        measureFn: ,
+        data: data,
+        labelAccessorFn: (something, _) => '${}: ${}',
+      )
+    ];
+  }
+}
+*/
 
 class MyApp extends StatelessWidget {
   @override
