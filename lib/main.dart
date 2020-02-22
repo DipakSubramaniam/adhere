@@ -61,20 +61,25 @@ class SplashScreenState extends State<SplashScreen> {
           'Welcome to Adhere',
         ),
       ),
-      body: Center(
-        child: Padding(
-          padding: EdgeInsets.all(16),
-          child: Text(
-            'The goal of this app is to help keep track of your daily medication and aid in the regulation of your health routines.\nGood luck, and Stay Healthy!\n- Adhere Labz',
-            style: new TextStyle(
-              fontSize: 20.0,
-              color: Colors.blue,
-              fontWeight: FontWeight.normal,
+      body: Column(
+        children: [
+        //Image.asset("/assets/images/undraw_medicine_b1ol.png"),
+        Center(
+            child: Padding(
+            padding: EdgeInsets.all(35),
+            child: Text(
+              'The goal of this app is to help keep track of your daily medication and aid in the regulation of your health routines.\nGood luck, and Stay Healthy!\n- Adhere Labz',
+              style: new TextStyle(
+                fontSize: 20.0,
+                color: Colors.blue,
+                fontWeight: FontWeight.normal,
+              ),
+              textAlign: TextAlign.center,
             ),
-            textAlign: TextAlign.center,
           ),
         ),
-      ),
+        ]
+    )
     );
   }
 }
